@@ -4,19 +4,19 @@
 "WindowTitle" = "Problem Report for %@";
 
 /* Introduction text, with app name placeholder first and company placeholder second */
-"IntroductionText" = "%@ unexpectedly quit. Would you like to send a report so we can fix the problem?";
+"IntroductionText" = "Isadora quit unexpectedly during the previous session.";
 
 /* Name Text Title */
-"NameTextTitle" = "Name";
+"NameTextTitle" = "Name (Optional)";
 
 /* Email Text Title */
-"EmailTextTitle" = "Email";
+"EmailTextTitle" = "Email (Optional)";
 
 /* Comments Disclosure Text */
-"CommentsDisclosureTitle" = "Comments";
+"CommentsDisclosureTitle" = "Have an idea about what caused the crash? Please tell us below:";
 
 /* User description placeholder */
-"UserDescriptionPlaceholder" = "Please describe any steps needed to trigger the problem";
+"UserDescriptionPlaceholder" = "Please describe any steps needed to trigger the crash";
 
 /* Problems Details Box  Title */
 "ProblemDetailsTitle" = "Problem details and system configuration";
@@ -31,7 +31,7 @@
 "HideDetailsButtonTitle" = "Hide Details";
 
 /* Cancel Button */
-"CancelButtonTitle" = "Cancel";
+"CancelButtonTitle" = "Don't Send";
 
 /* Send Button */
 "SendButtonTitle" = "Send";

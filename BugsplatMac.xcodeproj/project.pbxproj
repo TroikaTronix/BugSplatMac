@@ -146,15 +146,8 @@
 		A973AAA0255AB10700ADEBB3 /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CrashReporter.framework; sourceTree = "<group>"; };
 		A9A57AA31E58DCC500AE61D8 /* upload-archive-cl.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "upload-archive-cl.sh"; sourceTree = SOURCE_ROOT; };
 		A9B27EF423BE9CD3002F7DBD /* buildnumber.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = buildnumber.xcconfig; sourceTree = "<group>"; };
-		A9B27EF823BE9FF1002F7DBD /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/HockeySDK.strings; sourceTree = "<group>"; };
-		A9B27EF923BE9FF1002F7DBD /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/HockeySDK.strings; sourceTree = "<group>"; };
 		A9B27EFA23BE9FF1002F7DBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/HockeySDK.strings; sourceTree = "<group>"; };
-		A9B27EFB23BE9FF1002F7DBD /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/HockeySDK.strings; sourceTree = "<group>"; };
-		A9B27EFC23BE9FF1002F7DBD /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/HockeySDK.strings; sourceTree = "<group>"; };
-		A9B27EFE23BE9FF1002F7DBD /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/HockeySDK.strings; sourceTree = "<group>"; };
 		A9B27EFF23BE9FF1002F7DBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A9B27F0023BE9FF1002F7DBD /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/HockeySDK.strings; sourceTree = "<group>"; };
-		A9B27F0123BE9FF1002F7DBD /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/HockeySDK.strings; sourceTree = "<group>"; };
 		A9CBBB511D11BA8100972398 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A9FCA90C1C68CF530012D025 /* BugsplatMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BugsplatMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9FCA90F1C68CF530012D025 /* BugsplatMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BugsplatMac.h; sourceTree = "<group>"; };
@@ -414,13 +407,6 @@
 			knownRegions = (
 				en,
 				Base,
-				de,
-				ja,
-				nb,
-				it,
-				sv,
-				fr,
-				fi,
 			);
 			mainGroup = A9FCA9021C68CF530012D025;
 			productRefGroup = A9FCA90D1C68CF530012D025 /* Products */;
@@ -482,14 +468,7 @@
 		A9B27EF723BE9FF1002F7DBD /* HockeySDK.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A9B27EF823BE9FF1002F7DBD /* de */,
-				A9B27EF923BE9FF1002F7DBD /* ja */,
 				A9B27EFA23BE9FF1002F7DBD /* en */,
-				A9B27EFB23BE9FF1002F7DBD /* nb */,
-				A9B27EFC23BE9FF1002F7DBD /* it */,
-				A9B27EFE23BE9FF1002F7DBD /* sv */,
-				A9B27F0023BE9FF1002F7DBD /* fr */,
-				A9B27F0123BE9FF1002F7DBD /* fi */,
 			);
 			name = HockeySDK.strings;
 			sourceTree = "<group>";
