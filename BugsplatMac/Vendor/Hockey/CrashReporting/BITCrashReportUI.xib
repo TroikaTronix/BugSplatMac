@@ -58,7 +58,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" id="6w6-cf-42l">
                             <font key="font" metaFont="system"/>
-                            <string key="title">Sending this crash report helps us to improve Isadora, especially if you can take a moment to describe what you think caused the crash. All information you provide is treated as confidential and is used only to improve future versions.</string>
+                            <string key="title">Sending this crash report helps us improve Isadora, especially if you can take a moment to describe what you think caused the crash. Any information you provide will be kept confidential, and is used only to improve future versions.</string>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
