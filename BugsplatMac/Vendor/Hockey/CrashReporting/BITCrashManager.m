@@ -774,7 +774,7 @@ __attribute__((noreturn)) static void uncaught_cxx_exception_handler(const BITCr
 }
 
 - (void)invokeProcessing {
-    NSLog(@"INFO: Start CrashManager processing");
+    // NSLog(@"INFO: Start CrashManager processing");
 
     if (self.appLaunchObserver) {
         [[NSNotificationCenter defaultCenter] removeObserver:self.appLaunchObserver];
