@@ -91,7 +91,7 @@
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                                <size key="minSize" width="423" height="252"/>
+                                                <size key="minSize" width="438" height="253"/>
                                                 <size key="maxSize" width="876" height="10000000"/>
                                                 <color key="insertionPointColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                 <accessibility description="Please describe any steps needed to trigger the problem" help="Please describe any steps needed to trigger the problem"/>
@@ -313,7 +313,7 @@ DQ
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" id="azb-TZ-Qe3">
                             <font key="font" metaFont="smallSystem"/>
-                            <string key="title">When submitting this report, your data and IP address will be forwarded to BugSplat.com. By submitting this report, you consent to the transfer of your data to Bugsplat.com. Information on the processing of the transmitted data by Bugsplat.com can be found by visiting https://troikatronix.com/bugsplat-privacy. You can revoke your consent at any time by contacting info@troikatronix.com.</string>
+                            <string key="title">When submitting this report, your data and IP address will be forwarded to BugSplat.com. By submitting this report, you consent to the transfer of your data to BugSplat. Information on the processing of the transmitted data can be found by reading BugSplat's privacy and security policy. You can revoke your consent at any time by contacting info@troikatronix.com.</string>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
