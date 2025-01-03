@@ -5,7 +5,7 @@
 
 #import "BITHockeyBaseManagerPrivate.h"
 #import "BITCrashManagerPrivate.h"
-#import "BITCrashMetaData.h"
+#import "BITCrashMetaData.h" 
 
 #import <sys/sysctl.h>
 
@@ -26,6 +26,7 @@
 @property (nonatomic, strong) IBOutlet NSTextField *introductionText;
 @property (nonatomic, strong) IBOutlet NSTextField *commentsTextFieldTitle;
 @property (nonatomic, strong) IBOutlet NSTextField *problemDescriptionTextFieldTitle;
+@property (nonatomic, strong) IBOutlet NSView *commentAndContactEnclView;
 
 @property (nonatomic, strong) IBOutlet NSTextField *noteText;
 
@@ -47,7 +48,8 @@
 
 static const CGFloat kUserHeight = 50;
 static const CGFloat kCommentsHeight = 105;
-static const CGFloat kDetailsHeight = 285;
+static const CGFloat kDetailsHeight = 288;
+static const CGFloat kCommentsAndContactSizeAdjust = kCommentsHeight + 6;
 
 @implementation BITCrashReportUI
 
@@ -118,9 +120,14 @@ static const CGFloat kDetailsHeight = 285;
 
 - (IBAction)showComments: (id) sender {
   NSRect windowFrame = [[self window] frame];
+  NSRect commentsAndContactFrame =  [self.commentAndContactEnclView frame];
   
   if ([sender intValue]) {
     [self setShowComments: NO];
+    
+    commentsAndContactFrame.size.height += kCommentsAndContactSizeAdjust;
+	commentsAndContactFrame.origin.y -= kCommentsAndContactSizeAdjust;
+	[self.commentAndContactEnclView setFrame: commentsAndContactFrame];
     
     windowFrame.size = NSMakeSize(windowFrame.size.width, windowFrame.size.height + kCommentsHeight);
     windowFrame.origin.y -= kCommentsHeight;
@@ -132,6 +139,10 @@ static const CGFloat kDetailsHeight = 285;
   } else {
     [self setShowComments: NO];
     
+    commentsAndContactFrame.size.height -= kCommentsAndContactSizeAdjust;
+    commentsAndContactFrame.origin.y += kCommentsAndContactSizeAdjust;
+    [self.commentAndContactEnclView setFrame: commentsAndContactFrame];
+
     windowFrame.size = NSMakeSize(windowFrame.size.width, windowFrame.size.height - kCommentsHeight);
     windowFrame.origin.y += kCommentsHeight;
     [[self window] setFrame: windowFrame
