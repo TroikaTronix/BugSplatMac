@@ -8,3 +8,6 @@ BugsplatTester/Carthage
 Carthage
 BugsplatMac.framework.zip
 build
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcuserdatad
