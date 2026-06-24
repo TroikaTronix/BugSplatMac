@@ -12,6 +12,8 @@
 </div>
 <br>
 
+> TroikaTronix note: this private mirror includes local modifications documented in [TROIKATRONIX_README.md](TROIKATRONIX_README.md).
+
 > [!WARNING]  
 > This SDK has been deprecated. Please use BugSplat's new unified macOS/iOS SDK [bugsplat-apple](https://github.com/BugSplat-Git/bugsplat-apple).
 
